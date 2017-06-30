@@ -1,6 +1,7 @@
 import movie
 import fresh_tomatoes
 
+# create movie objects
 nemo = movie.Movie("Finding Nemo",
 	"https://www.youtube.com/watch?v=wZdpNglLbt8",
 	"A clown fish searches the ocean for his son",
@@ -31,7 +32,8 @@ frozen = movie.Movie("Frozen",
 	"Anna travels into the wilderness to find her sister Elsa, who has cast a spell over their town that causes it to be winter.",
 	"frozen.jpg")
 
+# add recently created movie objects to a list
 movies = [nemo, office_space, casino_royale, no_country, blood, frozen]
 
-
+# pass list of movie objects to the open_movie_page function from fresh_tomatoes module
 fresh_tomatoes.open_movies_page(movies)
