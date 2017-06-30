@@ -13,3 +13,7 @@ Make sure you have python 2.7.1 installed.
 3. Run following command to start movie trailer website:
 `python entertainment_center.py`
 
+## Note
+Make sure the poster_images folder contains the appropriate movie images
+
+
